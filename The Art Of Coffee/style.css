@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar-main {
+  /* border: 2px solid rgb(0, 0, 0); */
+  display: flex;
+  justify-content: space-between;
+  background-color: #fbf8f1;
+  
+}
+
+nav ul {
+  list-style-type: none;
+  /* border: 1px solid red; */
+  /* margin-left: 34.5%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 60%;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+  border: 1px solid #fbf8f1;
+  border-radius: 5px;
+  width: 15%;
+  text-align: center;
+  font-weight: 700;
+}
+
+nav ul li:hover {
+  background-color: #e9dac1;
+}
+
+.title_logo {
+  display: flex;
+  align-items: center;
+  margin-left: 2%;
+}
+
+.navbar-main a {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/*bannner styles*/
+
+.splash-container{
+
+
+  background-image: linear-gradient(#F7ECDE, #E9DAC1);
+}
+
+.splash-item {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 20%;
+  padding-right: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* border: 1px solid black; */
+  
+}
+
+.banner-text-container {
+  padding: 50px;
+  background-color: #FCDEC0;
+  border-radius: 10px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  
+}
+
+.banner-text-container h2{
+
+  font-size: 30px;
+}
+
+.banner-text-container p {
+  margin-top: 30px;
+  font-weight: 800;
+  line-height: 30px;
+  font-size: 22px;
+}
+
+footer {
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  font-weight: 800;
+  background-color: #BF9270;
+}
+
+.footer-right{
+
+  text-align: right;
+}
+
+.footer-heading{
+
+  font-size: 25px;
+}
+
+.footer-left-para{
+  
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.social-media-icons{
+
+  margin-top: 20px;
+}
+
+.sm-icon{
+
+  margin-left: 30px;
+}
+
+
+.page-editor{
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.copyright{
+
+  margin-top: 20px;
+}
+.footer-nav-link-list{
+
+  margin-top: 40px;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.footer-nav-link{
+
+  margin-top: 20px;
+}
+

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	#styledrect1{
+	 fill:#F7ECDE;
+	 stroke:#E9DAC1;
+	 stroke-width:5;
+	 fill-opacity:0.2;
+	 stroke-opacity:0.9"
+	 }
+	 
+	 #group2{
+	 stroke:#E9DAC1;
+	 stroke-width:5
+	 }
+	 
+	 #styledrect2{
+	 fill:#F7ECDE;
+	 stroke:#E9DAC1;
+	 stroke-width:5;
+	 fill-opacity:0.2;
+	 stroke-opacity:0.9"
+	 }
+	 
+	 #group1:hover rect{
+	 stroke:black;
+	 fill:brown
+	 }
+	 
+	 #group3:hover rect{
+	 fill:gray;
+	 stroke:black
+	 }
+	 
+	 #group4:hover rect{
+	 fill:gray;
+	 stroke:black
+	 }
+	 
+	 #group5:hover rect{
+	 fill:gray;
+	 stroke:black
+	 }
+	 
+	 #group6:hover rect{
+	 fill:gray;
+	 stroke:black
+	 }
+	 
+	 #group7:hover rect{
+	 fill:gray;
+	 stroke:black
+	 }
+	 
+	 
+	</style>
+</head>
+<body>
+	<h1>Site Map </h1>
+
+	<svg id="styled"width="1300" height="3000">
+	<g id="group1">
+		<rect id="styledrect1" x="600" y="40" rx="10" ry="10" width="150" height="50" />
+		<text id="styledtext1" fill="#000" x="650" y="70" font-size="14" font-family="Arial">Home</text>
+	</g>
+	
+	<g id="group2">
+		<line x1="675" y1="90" x2="675" y2="170" />
+		<line x1="100" y1="170" x2="1170" y2="170" />
+		<line x1="100" y1="170" x2="100" y2="200" />
+		<line x1="1170" y1="170" x2="1170" y2="200" />
+		<line x1="675" y1="170" x2="675" y2="200" />
+		<line x1="395" y1="170" x2="395" y2="200" />
+		<line x1="922" y1="170" x2="922" y2="200" />
+	</g>
+	
+	<g id="group3">
+		<rect id="styledrect2" x="600" y="200" rx="10" ry="10" width="150" height="50" />
+		<text id="styledtext1" fill="#000" x="650" y="230" font-size="14" font-family="Arial">Quiz</text>
+	</g>
+	
+	<g id="group4">
+		<rect id="styledrect2" x="25" y="200" rx="10" ry="10" width="150" height="50" />
+		<text id="styledtext1" fill="#000" x="50" y="230" font-size="14" font-family="Arial">Ask Questions</text>
+	</g>
+	
+	<g id="group5">
+		<rect id="styledrect2" x="1095" y="200" rx="10" ry="10" width="150" height="50" />
+		<text id="styledtext1" fill="#000" x="1150" y="230" font-size="14" font-family="Arial">Our Team</text>
+	</g>
+	
+	<g id="group6">
+		<rect id="styledrect2" x="320" y="200" rx="10" ry="10" width="150" height="50" />
+		<text id="styledtext1" fill="#000" x="355" y="230" font-size="14" font-family="Arial">Our Selection</text>
+	</g>
+	
+	<g id="group7">
+		<rect id="styledrect2" x="847" y="200" rx="10" ry="10" width="150" height="50" />
+		<text id="styledtext1" fill="#000" x="900" y="230" font-size="14" font-family="Arial">Gallery</text>
+	</g>
+	
+	<script>
+		document.getElementById("group1").addEventListener("click",function(){
+			document.location.href="#";
+			});
+			
+			
+		document.getElementById("group3").addEventListener("click",function(){
+			document.location.href="#";
+			});
+			
+		document.getElementById("group4").addEventListener("click",function(){
+			document.location.href="#";
+			});
+			
+		
+		document.getElementById("group5").addEventListener("click",function(){
+			document.location.href="#";
+			});
+			
+		document.getElementById("group6").addEventListener("click",function(){
+			document.location.href="#";
+			});
+			
+		document.getElementById("group7").addEventListener("click",function(){
+			document.location.href="#";
+			});
+	
+	
+	</script>
+
+</svg>
+ 
+</body>
+</html>

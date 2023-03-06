@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Quiz</title>
+  </head>
+  <body>
+    
+
+    <script>
+      function getRadioValue() {
+        //CORRECT ANSWERS
+        var amountCorrect = 0;
+        var amountIncorrect = 0;
+        var TotCorrect = 0;
+        var Total = 0;
+        var TotIncorrect = 0;
+
+        // LOOP FOR GOING THROUGH ALL QUESTIONS
+        for (var i = 1; i <= 10; i++) {
+          var radiosName = document.getElementsByName("answer" + i);
+
+          //LOOP FOR CHECKING ANSWERS INSIDE EACH RADIO
+          for (var j = 0; j < radiosName.length; j++) {
+            var radiosValue = radiosName[j];
+            if (radiosValue.value == "correct") {
+              amountCorrect++;
+            }
+          }
+          amountIncorrect = 10 - amountCorrect;
+          TotIncorrect = amountIncorrect * -1;
+          TotCorrect = amountCorrect * 2;
+          Total = TotCorrect + TotIncorrect;
+        }
+        document.getElementById("results").innerHTML = "Score " + Total;
+      }
+    </script>
+  </body>
+</html>

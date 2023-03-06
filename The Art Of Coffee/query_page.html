@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="query_style.css" />
+    
+    <title>Title</title>
+  </head>
+  <body>
+
+    <nav class="navbar-main">
+      <div class="title_logo"><h1>Art of coffee</h1></div>
+      <ul>
+        <li id="nav_first_child"><a href="index.html">Home</a></li>
+        <li><a href="query_page.html">Ask Questions</a></li>
+        <li><a href="product_page.html">Our selection</a></li>
+        <li><a href="quiz_page.html">Quiz</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Our Team</a></li>
+        <li><a href="#">Sitemap</a></li>
+      </ul>
+    </nav>
+
+    <div class="query_banner">
+      <h1 id="query-heading" >Enter your queries</h1>
+    </div>
+
+    <div class="query-form-container">
+
+      <form id="query-form" action="#" method="post">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="user_name" />
+          </li>
+          <li>
+            <label for="mail">E-mail</label>
+            <input type="email" id="mail" name="user_email" />
+          </li>
+          <li>
+            <label for="query-subject">Choose the subject of your query</label>  
+            <select id="query-subject" name="query-subject">
+              <option value=""></option>  
+              <option value="General">General</option>
+              <option value="Deliveries" >Deliveries</option>
+              <option value="Quality">Quality</option>
+            </select>
+          </li>
+          <li>
+            <label for="query-text">Query</label>
+            <textarea id="query-text" name="query-text"></textarea>
+          </li>
+          
+          <li class="button">
+            <button id="view-query-btn" type="button">View Query</button>
+          </li>
+          
+        </ul>
+      </form>
+
+      <div id="query-data" class="query-data">
+        <div class="query-data-item">
+          <h2>Name: </h2>
+          <h2 id="query-data-name" class="query-data-item-detail">Manupa Samarawickrama</h2>
+        </div>
+
+        <div class="query-data-item">
+          <h2>E-mail: </h2>
+          <h2 id="query-data-mail" class="query-data-item-detail">Manupa Samarawickrama</h2>
+        </div>
+
+        <div class="query-data-item">
+          <h2>Query Subject: </h2>
+          <h2 id="query-data-subject"class="query-data-item-detail">Manupa Samarawickrama</h2>
+        </div>
+
+        <div id="detail-para" class="query-data-item">
+          <h2>Query details: </h2>
+          <p id="query-data-details" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ab perferendis cumque soluta labore excepturi assumenda placeat! Dolor minus doloribus accusantium quaerat sequi corporis natus id commodi delectus facilis vero aperiam, ut at laborum laudantium, nobis fugit eius. Totam voluptas libero reprehenderit magnam fugit distinctio laborum nulla modi sapiente blanditiis.</p>
+        </div>
+
+        <div class=" query-data-item data-btn-container">
+          <button id="edit-query-btn" type="button">Edit</button>
+          <button id="submit-query-btn" type="button">Submit</button>
+        </div>
+      </div>  
+    </div>
+
+    <script src="query_script.js"></script>
+  </body>
+</html>

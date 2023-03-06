@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Title</title>
+<style>
+.image {
+	display:inline-block;
+	display:flex;
+	margin-top:135px;
+}
+.image_2{
+  position: relative;
+  margin:10px;
+  width:100%;
+}
+
+<!--.img {
+    display:block;
+    width: 300px;
+}-->
+
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+    backdrop-filter: blur(5px);
+}
+
+.image__overlay--primary {
+    background: #009578;
+}
+
+.image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
+.image__overlay:hover > * {
+    transform: translateY(0);
+}
+
+.name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.role{
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
+h1{
+text-align:center;
+font-family: 'Quicksand', sans-serif;
+}
+</style>
+</head>
+<body>
+<h1> Meet Our Team</h1>
+<div class="image">
+    <div class ="image_2">
+    <img class="img" src="https://i.pinimg.com/564x/40/76/79/407679d20088c659aba7a760c69dd7c3.jpg" alt="Dinuka">
+    <div class="image__overlay image__overlay--primary">
+        <div class="name">Dinuka Perera</div>
+        <p class="role">
+            Student 1
+        </p>
+       </div>
+    </div>
+    <div class ="image_2">
+	<img class="img" src="https://i.pinimg.com/564x/64/45/8a/64458a7afc555f6ae90f9dabb02bcf85.jpg" alt="Manupa">
+    <div class="image__overlay image__overlay--primary">
+        <div class="name">Manupa Chathwara</div>
+        <p class="role">
+            Student 2
+        </p>
+       </div>
+    </div>
+    <div class ="image_2">
+	<img class="img" src="https://i.pinimg.com/564x/0b/1a/a6/0b1aa65b2b927f0fd9024f4192a99d11.jpg" alt="Dinithi">
+    <div class="image__overlay image__overlay--primary">
+        <div class="name">Dinithi Gunawardena</div>
+        <p class="role">
+            Student 3
+        </p>
+       </div>
+    </div>
+    <div class ="image_2">
+	<img class="img" src="https://i.pinimg.com/564x/87/63/c1/8763c1bb132365213d3f44f69e222bbb.jpg" alt="Venushi">
+    <div class="image__overlay image__overlay--primary">
+        <div class="name"> Venushi Silva</div>
+        <p class="role">
+            Student 4
+        </p>
+       </div> 
+    </div>
+</div>
+	
+</body>
+
+</html>

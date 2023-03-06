@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+  font-family: "Roboto", sans-serif !important;
+}
+
+.navbar-main {
+  /* border: 2px solid rgb(0, 0, 0); */
+  display: flex;
+  justify-content: space-between;
+  background-color: #fbf8f1;
+}
+
+nav ul {
+  list-style-type: none;
+  /* border: 1px solid red; */
+  /* margin-left: 34.5%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 60%;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+  border: 1px solid #fbf8f1;
+  border-radius: 5px;
+  width: 15%;
+  text-align: center;
+  font-weight: 700;
+}
+
+nav ul li:hover {
+  background-color: #e9dac1;
+}
+
+.title_logo {
+  display: flex;
+  align-items: center;
+  margin-left: 2%;
+}
+
+.navbar-main a {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.detail {
+  padding: 30px;
+  background-color: #E9DAC1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.detail-left{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.detail h3 {
+  margin-left: 2px;
+}
+
+.detail-right{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.order-summary-container{
+
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  margin-top: 20px;
+  font-weight: 800;
+}
+
+.total-item-count{
+  padding-top: 10px;
+}
+
+.total-bill-container{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;  
+}
+
+.bill-val-display{
+
+  padding-top: 20px;
+  font-size: 50px;
+}
+
+.detail-form-container {
+  margin-top: 20px;
+}
+
+form ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form ul li {
+  padding: 5px;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+form input,
+form textarea,
+form select {
+  display: block;
+}
+
+form input {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 50%;
+  padding: 10px;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+/*product-section*/
+
+
+
+.product-section {
+  padding: 40px;
+  background-color: #f7ecde;
+  
+}
+
+.product-header{
+
+  text-align: center;
+}
+
+.product-img-container {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.image-card {
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  height: fit-content;
+  position: relative;
+}
+
+.image-card img{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  border-radius: 15px;
+}
+
+.image-card-text{
+
+  
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.image-card-details{
+
+  margin-top: 40px;
+  text-align: center;
+}
+
+.image-card-details h3{
+
+  font-size: 30px;
+}
+
+.image-card-details p{
+
+  padding-top: 10px;
+}
+
+.price-p{
+
+  font-size: 25px;
+}
+
+.add-cart-container{
+
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  
+  width: 100%;
+  background-color: #F7ECDE;
+  position: absolute;
+  bottom: 130px;
+  display: block;
+
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.control-btn-container{
+
+  width: 20%
+  
+}
+
+.control-btn-container button{
+  
+  width: 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid #BF9270;
+  margin-left: 5px;
+  font-weight:700;
+  cursor: pointer;
+}
+
+.control-btn-container span{
+
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.add-to-cart-btn{
+
+  width: 40%;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-weight:700;
+  border: 1px solid #BF9270;
+  cursor: pointer;
+  display: none;
+}
+
+#place-order-btn{
+
+    margin-top: 30px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 40%;
+    background-color: #fbf8f1;
+}
+
+#place-order-btn:hover {
+    background-color: #e9dac1;
+    cursor: pointer;
+}
+
+
+/*Invoice styles */
+
+.invoice-container{
+
+  display: none;
+  padding: 30px;
+}
+
+.personal-details{
+
+  margin-top: 30px;
+}
+
+.invoice-details{
+  margin-top: 30px;
+}
+
+.invoice-details h2{
+
+  border-bottom: 2px solid black;
+  width: fit-content;
+}
+
+.invoice-item{
+
+  margin-top: 20px;
+  padding: 10px;
+  font-weight:800;
+  font-size: 20px;
+}

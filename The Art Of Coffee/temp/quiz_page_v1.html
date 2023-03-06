@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="quiz_style.css" />
+    <title>Title</title>
+  </head>
+  <body>
+    <nav class="navbar-main">
+      <div class="title_logo"><h1>Art of coffee</h1></div>
+      <ul>
+        <li id="nav_first_child"><a href="index.html">Home</a></li>
+        <li><a href="query_page.html">Ask Questions</a></li>
+        <li><a href="product_page.html">Our selection</a></li>
+        <li><a href="quiz_page.html">Quiz</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Our Team</a></li>
+        <li><a href="#">Sitemap</a></li>
+      </ul>
+    </nav>
+
+    <div id="body-container">
+    <div class="quiz-banner">
+
+      <div class="quiz-banner-text">
+        <h1>Cafe Quiz</h1>
+        <p>A quiz to test your coffee knowledge</p>
+      </div>
+
+      <div class="quiz-banner-btn-container" id="quiz-banner-btn-container">
+        <button id="start-quiz-btn" type="button">Start</button>
+      </div>
+
+      <div class="timer-container" id="timer-container">
+          <span>Remaining time: </span>
+          <span id="mins">00</span>
+          <span>:</span>
+          <span id="secs">00</span>
+        </div>
+        
+    </div>
+      
+    <div class="quiz-container" id="quiz-container">
+
+      <div class="quiz-card">
+        <p class="question">1) What's the name of our cafe?</p>
+
+        <div class="ans-list">
+          <div class="ans-item">
+            <input id="1_1" type="radio" name="1" value="1" />
+            <label for="1_1">Art of caffeine</label>
+          </div>
+
+          <div class="ans-item">
+            <input id="1_2" type="radio" name="1" value="2" />
+            <label for="1_2">Coffe supreme </label>
+          </div>
+          
+          <div class="ans-item">
+            <input id="1_3" type="radio" name="1" value="3" />
+            <label for="1_3">Beautiful coffee</label>
+          </div>
+          
+          <div class="ans-item">
+            <input id="1_4" type="radio" name="1" value="4" />
+            <label for="1_4">Art of coffee</label> 
+          </div>
+        </div>
+
+      </div>
+
+      <div class="quiz-card">
+        <p class="question">2) What's the name of our cafe?</p>
+
+        <div class="ans-list">
+          <div class="ans-item">
+            <input id="2_1" type="radio" name="2" value="1" />
+            <label for="2_1">Art of caffeine</label>
+          </div>
+
+          <div class="ans-item">
+            <input id="2_2" type="radio" name="2" value="2" />
+            <label for="2_2">Coffe supreme </label>
+          </div>
+          
+          <div class="ans-item">
+            <input id="2_3" type="radio" name="2" value="3" />
+            <label for="2_3">Beautiful coffee</label>
+          </div>
+          
+          <div class="ans-item">
+            <input id="2_4" type="radio" name="2" value="4" />
+            <label for="2_4">Art of coffee</label> 
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="quiz-card">
+        <p class="question">3) What's the name of our cafe?</p>
+
+        <div class="ans-list">
+          <div class="ans-item">
+            <input id="3_1" type="radio" name="3" value="1" />
+            <label for="3_1">Art of caffeine</label>
+          </div>
+
+          <div class="ans-item">
+            <input id="3_2" type="radio" name="3" value="2" />
+            <label for="3_2">Coffe supreme </label>
+          </div>
+          
+          <div class="ans-item">
+            <input id="3_3" type="radio" name="3" value="3" />
+            <label for="3_3">Beautiful coffee</label>
+          </div>
+          
+          <div class="ans-item">
+            <input id="3_4" type="radio" name="3" value="4" />
+            <label for="3_4">Art of coffee</label> 
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="quiz-card">
+        <p class="question">4) What's the name of our cafe?</p>
+
+        <div class="ans-list">
+          <div class="ans-item">
+            <input id="4_1" type="radio" name="4" value="1" />
+            <label for="4_1">Art of caffeine</label>
+          </div>
+
+          <div class="ans-item">
+            <input id="4_2" type="radio" name="4" value="2" />
+            <label for="4_2">Coffe supreme </label>
+          </div>
+          
+          <div class="ans-item">
+            <input id="4_3" type="radio" name="4" value="3" />
+            <label for="4_3">Beautiful coffee</label>
+          </div>
+          
+          <div class="ans-item">
+            <input id="4_4" type="radio" name="4" value="4" />
+            <label for="4_4">Art of coffee</label> 
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="quiz-card">
+        <p class="question">5) What's the name of our cafe?</p>
+
+        <div class="ans-list">
+          <div class="ans-item">
+            <input id="5_1" type="radio" name="5" value="1" />
+            <label for="5_1">Art of caffeine</label>
+          </div>
+
+          <div class="ans-item">
+            <input id="5_2" type="radio" name="5" value="2" />
+            <label for="5_2">Coffe supreme </label>
+          </div>
+          
+          <div class="ans-item">
+            <input id="5_3" type="radio" name="5" value="3" />
+            <label for="5_3">Beautiful coffee</label>
+          </div>
+          
+          <div class="ans-item">
+            <input id="5_4" type="radio" name="5" value="4" />
+            <label for="5_4">Art of coffee</label> 
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="quiz-card">
+        <p class="question">6) What's the name of our cafe?</p>
+
+        <div class="ans-list">
+          <div class="ans-item">
+            <input id="6_1" type="radio" name="6" value="1" />
+            <label for="6_1">Art of caffeine</label>
+          </div>
+
+          <div class="ans-item">
+            <input id="6_2" type="radio" name="6" value="2" />
+            <label for="6_2">Coffe supreme </label>
+          </div>
+          
+          <div class="ans-item">
+            <input id="6_3" type="radio" name="6" value="3" />
+            <label for="6_3">Beautiful coffee</label>
+          </div>
+          
+          <div class="ans-item">
+            <input id="6_4" type="radio" name="6" value="4" />
+            <label for="6_4">Art of coffee</label> 
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="quiz-card">
+        <p class="question">7) What's the name of our cafe?</p>
+
+        <div class="ans-list">
+          <div class="ans-item">
+            <input id="7_1" type="radio" name="7" value="1" />
+            <label for="7_1">Art of caffeine</label>
+          </div>
+
+          <div class="ans-item">
+            <input id="7_2" type="radio" name="7" value="2" />
+            <label for="7_2">Coffe supreme </label>
+          </div>
+          
+          <div class="ans-item">
+            <input id="7_3" type="radio" name="7" value="3" />
+            <label for="7_3">Beautiful coffee</label>
+          </div>
+          
+          <div class="ans-item">
+            <input id="7_4" type="radio" name="7" value="4" />
+            <label for="7_4">Art of coffee</label> 
+          </div>
+        </div>
+        
+        
+      </div>
+
+      <div class="quiz-card">
+        <p class="question">8) What's the name of our cafe?</p>
+
+        <div class="ans-list">
+          <div class="ans-item">
+            <input id="8_1" type="radio" name="8" value="1" />
+            <label for="8_1">Art of caffeine</label>
+          </div>
+
+          <div class="ans-item">
+            <input id="8_2" type="radio" name="8" value="2" />
+            <label for="8_2">Coffe supreme </label>
+          </div>
+          
+          <div class="ans-item">
+            <input id="8_3" type="radio" name="8" value="3" />
+            <label for="8_3">Beautiful coffee</label>
+          </div>
+          
+          <div class="ans-item">
+            <input id="8_4" type="radio" name="8" value="4" />
+            <label for="8_4">Art of coffee</label> 
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="quiz-card">
+        <p class="question">9) What's the name of our cafe?</p>
+
+        <div class="ans-list">
+          <div class="ans-item">
+            <input id="9_1" type="radio" name="9" value="1" />
+            <label for="9_1">Art of caffeine</label>
+          </div>
+
+          <div class="ans-item">
+            <input id="9_2" type="radio" name="9" value="2" />
+            <label for="9_2">Coffe supreme </label>
+          </div>
+          
+          <div class="ans-item">
+            <input id="9_3" type="radio" name="9" value="3" />
+            <label for="9_3">Beautiful coffee</label>
+          </div>
+          
+          <div class="ans-item">
+            <input id="9_4" type="radio" name="9" value="4" />
+            <label for="9_4">Art of coffee</label> 
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="quiz-card">
+        <p class="question">10) What's the name of our cafe?</p>
+
+        <div class="ans-list">
+          <div class="ans-item">
+            <input id="10_1" type="radio" name="10" value="1" />
+            <label for="10_1">Art of caffeine</label>
+          </div>
+
+          <div class="ans-item">
+            <input id="10_2" type="radio" name="10" value="2" />
+            <label for="10_2">Coffe supreme </label>
+          </div>
+          
+          <div class="ans-item">
+            <input id="10_3" type="radio" name="10" value="3" />
+            <label for="10_3">Beautiful coffee</label>
+          </div>
+          
+          <div class="ans-item">
+            <input id="10_4" type="radio" name="10" value="4" />
+            <label for="10_4">Art of coffee</label> 
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="quiz-submit-btn-container" id="quiz-submit-btn-container">
+        <button id="submit-quiz-btn" type="button">Submit</button>
+      </div>
+    
+    </div>
+
+    <div class="quiz-result-container" id="quiz-result-container">
+      <h1>Your mark is: </h1>
+      <h1 id="total-mark">20</h1>
+    </div>
+
+    </div>
+  
+    <script src="quiz_script.js"></script>
+  </body>
+</html>

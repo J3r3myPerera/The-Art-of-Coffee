@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar-main {
+  /* border: 2px solid rgb(0, 0, 0); */
+  display: flex;
+  justify-content: space-between;
+  background-color: #fbf8f1;
+}
+
+nav ul {
+  list-style-type: none;
+  /* border: 1px solid red; */
+  /* margin-left: 34.5%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 60%;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+  border: 1px solid #fbf8f1;
+  border-radius: 5px;
+  width: 15%;
+  text-align: center;
+  font-weight: 700;
+}
+
+nav ul li:hover {
+  background-color: #e9dac1;
+}
+
+.title_logo {
+  display: flex;
+  align-items: center;
+  margin-left: 2%;
+}
+
+.navbar-main a {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/*bannner styles*/
+.query_banner {
+  background-color: #F7ECDE;
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.query_banner h1 {
+  margin-left: 13%;
+}
+
+.query-form-container{
+
+  background-color: #E9DAC1;
+}
+
+form {
+  padding: 30px;
+}
+
+.query-data {
+  padding: 30px;
+}
+
+.query-data-item {
+  margin-left: 11.5%;
+  display: flex;
+  margin-top: 20px;
+}
+
+.query-data-item-detail {
+  margin-left: 1%;
+}
+
+#detail-para {
+  display: block;
+}
+
+#detail-para p {
+  margin-top: 20px;
+  font-weight: 700;
+  width: 40%;
+  background-color: #FBF8F1;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius:10px; 
+}
+
+
+.data-btn-container{
+
+  margin-top: 100px;
+}
+
+
+.data-btn-container button {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+  width: 10%;
+  background-color: #fbf8f1;
+}
+
+.data-btn-container button:last-child{
+
+  margin-left: 4%;
+}
+
+.data-btn-container button:hover {
+  background-color: #e9dac1;
+  cursor: pointer;
+}
+
+form ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10%;
+}
+
+form ul li {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+form input,
+form textarea,
+form select {
+  display: block;
+}
+
+form input {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 50%;
+  padding: 5px;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+form textarea {
+  font-family: inherit;
+  font-size: 20px;
+  height: 200px;
+  margin: 0;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+form select {
+  font-family: inherit;
+  font-size: 20px;
+  width: 20%;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+form textarea {
+  resize: none;
+}
+
+form select option {
+  font-weight: 500;
+}
+
+form button {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+  width: 10%;
+  background-color: #fbf8f1;
+}
+
+form button:hover {
+  background-color: #e9dac1;
+  cursor: pointer;
+}
